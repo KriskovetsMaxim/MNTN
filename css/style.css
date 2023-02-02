@@ -88,21 +88,24 @@ body {
 }
 
 .header__nav-list {
+    display: inline-flex;
+}
 
+.header__nav-link {
+    color:#ffffff;
+    text-decoration: none;
 }
 
 .header__nav-item {
-    display: inline-flex;
-    margin-right: 40px;
     font-weight: 700;
     font-size: 18px;
     line-height: 22px;
+    margin-right: 40px;
 }
 
 .header__nav-item:last-child {
     margin-right: 0;
 }
-
 .header__account-box {
     display: flex;
     align-items: center;
@@ -272,10 +275,105 @@ body {
 
 /* -----------FOOTER------------ */
 
-
 .footer {
     max-width: 1462px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+}
+
+
+/* ----------WRAPPER-LEFT----------- */
+.footer__wrapper-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__logo-link {
+    margin-bottom: 24px;
+}
+
+.footer__text {
+    margin-bottom: 135px;
+    max-width: 303px;
+}
+
+.footer__copyright {
+    align-items:flex-end;
+    font-weight: 500;
+    opacity: 0.5;
+}
+
+/* ----------WRAPPER-RIGHT----------- */
+
+.footer__wrapper-right {
+    display: flex;
+}
+
+/* --------FIRST-NAV------- */
+
+.first-nav__title {
+    font-size: 24px;
+    margin-bottom: 24px;
+    
+}
+
+.first-nav__titel-link {
+    color:#FBD784;
+    text-decoration:none;
+}
+
+.first-nav__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-nav__item {
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.first-nav__item:last-child {
+    margin-bottom: 0;
+}
+
+.first-nav__link {
+    color:#ffffff;
+    text-decoration: none;
+}
+
+/* --------SECOND-NAV------- */
+
+.footer__second-nav {
+    margin-left: 212px;
+}
+
+.second-nav__title {
+    font-size: 24px;
+    margin-bottom: 24px;
+
+}
+
+.second-nav__titel-link {
+    color: #FBD784;
+    text-decoration: none;
+}
+
+.second-nav__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.second-nav__item {
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.second-nav__item:last-child {
+    margin-bottom: 0;
+}
+
+.second-nav__link {
+    color: #ffffff;
+    text-decoration: none;
 }
