@@ -1,7 +1,48 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../font/Gilroy-Regular.woff2),
+    url(../font/Gilroy-Regular.woff);
+    font-weight: 400;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../font/Gilroy-Medium.woff2),
+    url(../font/Gilroy-Medium.woff);
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../font/Gilroy-Bold.woff2),
+    url(../font/Gilroy-Bold.woff);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../font/Gilroy-Extrabold.woff2),
+    url(../font/Gilroy-Extrabold.woff);
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Chronicle';
+    src: url(../font/Chronicle\ Display\ Semibold.otf);
+    font-weight: 600;
+    font-style: normal;
+}
 
 * {
     box-sizing: border-box;
+}
+
+html {
+    scroll-behavior:smooth;
 }
 
 body {
@@ -10,6 +51,7 @@ body {
     background-size: 100% auto;
     background-color: #0B1D26;
     color: #ffffff;
+    font-family: 'Gilroy';
     font-weight: 700;
     font-size: 18px;
     line-height: 32px;
@@ -28,12 +70,15 @@ body {
 }
 
 .title {
+    font-family: 'Chronicle Display';
     font-weight: 600;
     font-size: 64px;
     line-height: 77px;
 }
 
 .title_big {
+    font-family: 'Chronicle Display';
+    font-weight: 600;
     font-size: 88px;
     line-height: 100px;
     text-transform: capitalize;
@@ -147,9 +192,6 @@ body {
     margin-right: 16px;
 }
 
-.main {
-
-}
 
 .wrapper-01 {
     display: flex;
@@ -300,7 +342,7 @@ body {
 
 .footer__copyright {
     align-items:flex-end;
-    font-weight: 500;
+    font-weight: 400;
     opacity: 0.5;
 }
 
